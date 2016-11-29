@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Bungee+Inline");
+.full-width, .img-width, img {
+  width: 100%;
+  min-width: 100%; }
+
+.img-width, img {
+  object-fit: cover; }
+
+h1, h2 {
+  font-size: 36px;
+  font-family: "Bungee Inline";
+  color: black; }
+  h1 small, h2 small {
+    color: #eee; }
+
+li > .titles {
+  font-size: 28px;
+  font-family: "helvetica";
+  color: black; }
+  li > .titles small {
+    color: #eee; }
+
+figure {
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 25%; }
+  figure * {
+    max-width: 100%;
+    overflow: hidden; }
+
+/*# sourceMappingURL=main.sass.css.map */

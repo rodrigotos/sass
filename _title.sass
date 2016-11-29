@@ -1,0 +1,24 @@
+
+@mixin titles($font-size, $font-name)
+  font-size: $font-size
+  font-family: $font-name
+  color: black
+  small
+    color: #eee
+
+.full-width
+  width: 100%
+  min-width: 100%
+
+.img-width
+  @extend .full-width
+  object-fit: cover
+
+@mixin grid-element($cols)
+  float: left
+  margin: 0
+  padding: 0
+  width: 100%/ $cols
+  *
+    max-width: 100%
+    overflow: hidden

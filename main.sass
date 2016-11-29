@@ -1,0 +1,17 @@
+// Scss variables user defined
+$font-file-url: "https://fonts.googleapis.com/css?family=Bungee+Inline"
+
+@import url($font-file-url)
+@import _title.sass
+
+h1, h2
+  +titles(36px, "Bungee Inline")
+
+li>.titles
+  +titles(28px, "helvetica")
+
+img
+  @extend .img-width
+
+figure
+  +grid-element(4)

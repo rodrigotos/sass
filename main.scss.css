@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css?family=Bungee+Inline");
+h1 {
+  font-size: 32px;
+  font-family: "Bungee Inline";
+  color: white; }
+  h1 small {
+    color: #eee; }
+
+/*# sourceMappingURL=main.scss.css.map */

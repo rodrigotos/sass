@@ -1,0 +1,15 @@
+// Scss variables user defined
+$title-size: 32px;
+$font-file-url: "https://fonts.googleapis.com/css?family=Bungee+Inline";
+$font-name: "Bungee Inline";
+
+@import url($font-file-url);
+
+h1{
+  font-size: $title-size;
+  font-family: $font-name;
+  color: white;
+  small{
+    color: #eee;
+  }
+}
